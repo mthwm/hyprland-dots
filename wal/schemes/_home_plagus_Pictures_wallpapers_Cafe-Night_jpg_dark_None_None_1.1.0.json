@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/plagus/Pictures/wallpapers/Cafe-Night.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0c22",
+        "foreground": "#a6bfcb",
+        "cursor": "#a6bfcb"
+    },
+    "colors": {
+        "color0": "#0e0c22",
+        "color1": "#B24B2F",
+        "color2": "#A67247",
+        "color3": "#8A9475",
+        "color4": "#C99D5E",
+        "color5": "#3A6B87",
+        "color6": "#52708A",
+        "color7": "#a6bfcb",
+        "color8": "#74858e",
+        "color9": "#B24B2F",
+        "color10": "#A67247",
+        "color11": "#8A9475",
+        "color12": "#C99D5E",
+        "color13": "#3A6B87",
+        "color14": "#52708A",
+        "color15": "#a6bfcb"
+    }
+}

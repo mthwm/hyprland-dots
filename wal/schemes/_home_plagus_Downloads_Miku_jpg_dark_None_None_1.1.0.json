@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/plagus/Downloads/Miku.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160907",
+        "foreground": "#c08fbc",
+        "cursor": "#c08fbc"
+    },
+    "colors": {
+        "color0": "#160907",
+        "color1": "#962E56",
+        "color2": "#B14A60",
+        "color3": "#D66359",
+        "color4": "#EC8E4E",
+        "color5": "#3D0983",
+        "color6": "#631A94",
+        "color7": "#c08fbc",
+        "color8": "#866483",
+        "color9": "#962E56",
+        "color10": "#B14A60",
+        "color11": "#D66359",
+        "color12": "#EC8E4E",
+        "color13": "#3D0983",
+        "color14": "#631A94",
+        "color15": "#c08fbc"
+    }
+}

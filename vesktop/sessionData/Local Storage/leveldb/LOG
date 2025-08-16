@@ -1,0 +1,26 @@
+2025/08/11-19:31:12.304 108c4 Reusing MANIFEST /home/plagus/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/08/11-19:31:12.321 108c4 Recovering log #71
+2025/08/11-19:31:12.322 108c4 Level-0 table #73: started
+2025/08/11-19:31:12.326 108c4 Level-0 table #73: 20342 bytes OK
+2025/08/11-19:31:12.330 108c4 Delete type=0 #71
+2025/08/11-21:12:11.299 10850 Level-0 table #76: started
+2025/08/11-21:12:11.311 10850 Level-0 table #76: 58976 bytes OK
+2025/08/11-21:12:11.315 10850 Delete type=0 #74
+2025/08/11-21:12:11.316 10850 Compacting 4@0 + 1@1 files
+2025/08/11-21:12:11.321 10850 Generated table #77@0: 43 keys, 45207 bytes
+2025/08/11-21:12:11.321 10850 Compacted 4@0 + 1@1 files => 45207 bytes
+2025/08/11-21:12:11.324 10850 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/11-21:12:11.324 10850 Delete type=2 #73
+2025/08/11-21:12:11.324 10850 Delete type=2 #66
+2025/08/11-21:12:11.325 10850 Delete type=2 #70
+2025/08/11-21:12:11.325 10850 Delete type=2 #68
+2025/08/11-21:12:11.325 10850 Delete type=2 #76
+2025/08/13-22:55:30.348 10851 Level-0 table #79: started
+2025/08/13-22:55:30.367 10851 Level-0 table #79: 35387 bytes OK
+2025/08/13-22:55:30.371 10851 Delete type=0 #75
+2025/08/14-13:32:02.218 10851 Level-0 table #81: started
+2025/08/14-13:32:02.231 10851 Level-0 table #81: 45813 bytes OK
+2025/08/14-13:32:02.235 10851 Delete type=0 #78
+2025/08/15-01:45:18.575 10850 Level-0 table #83: started
+2025/08/15-01:45:18.586 10850 Level-0 table #83: 43015 bytes OK
+2025/08/15-01:45:18.606 10850 Delete type=0 #80

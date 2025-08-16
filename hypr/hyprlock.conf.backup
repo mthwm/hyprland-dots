@@ -1,0 +1,46 @@
+source = colors.conf
+
+background {
+    monitor =  
+    path = /home/plagus/Pictures/wallpapers/Adreneline.jpg
+    blur_size = 4
+    blur_passes = 3
+    noise = 0.02
+    color = rgba(0,0,0,0.55)  # semi-transparent black, enables blur
+}
+
+input-field {
+    monitor = 
+    position = 0, -50
+    size = 200, 50
+    outline_thickness = 1
+    dots_size = 0.2
+    dots_spacing = 0.2
+    dots_center = true
+    outer_color = rgba(000000aa)
+    inner_color = $background
+    font_color = rgba(ffffffff)
+    fade_on_empty = false
+    
+    placeholder_text = <span foreground="grey">Password...</span>
+}
+label {
+    monitor = 
+    text = cmd[update:1000] echo  "<span>$(date +"%H:%M")</span>"
+    color = rgba(216,222,233,0.7)
+    font_size = 150
+    font_family = "Iosevka Nerd Font Mono"
+    position = 0, 175
+}
+label {
+    monitor = 
+    text = cmd[update:1000] echo  -e "$(date +"%A, %B %d")"
+    color = rgba(216,222,233,0.7)
+    font_size = 25
+    font_family = "Iosevka Nerd Font Mono"
+    position = 0, 70
+}
+general {
+    grace = 0
+    fade_out = 0.4
+}

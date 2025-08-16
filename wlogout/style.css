@@ -1,0 +1,65 @@
+@import "colors.css";
+
+#lock {
+    background-image: url("/home/plagus/.config/wlogout/icons/lock.png");
+}
+#logout {
+    background-image: url("/home/plagus/.config/wlogout/icons/logout.png");
+}
+#suspend {
+    background-image: url("/home/plagus/.config/wlogout/icons/suspend.png");
+}
+#hibernate {
+    background-image: url("/home/plagus/.config/wlogout/icons/hibernate.png");
+}
+#reboot {
+    background-image: url("/home/plagus/.config/wlogout/icons/reboot.png");
+}
+#shutdown {
+    background-image: url("/home/plagus/.config/wlogout/icons/shutdown.png");
+}
+
+* {
+    background-image: none;
+    box-shadow: none;
+}
+
+window {
+    background-color: rgba(30, 30, 30, 0.8);
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center;
+    flex-wrap: nowrap; */
+}
+
+button {
+    color: @foreground;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+    min-width: 80px;
+    min-height: 40px;
+    /* transition: all 0.3s ease; */
+}
+
+button:hover,
+button:focus {
+    background-color: @on_background;
+    border-color: @onn_primary;
+    color: @foreground;
+    /* transform: translateY(-2px); */
+}
+
+
+/* Individual button styling */
+#lock, #logout, #suspend, #hibernate, #shutdown, #reboot {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+
+

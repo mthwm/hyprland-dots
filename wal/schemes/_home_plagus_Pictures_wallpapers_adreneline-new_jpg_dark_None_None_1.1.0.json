@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/plagus/Pictures/wallpapers/adreneline-new.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0404",
+        "foreground": "#e2e6e6",
+        "cursor": "#e2e6e6"
+    },
+    "colors": {
+        "color0": "#0F0404",
+        "color1": "#68798A",
+        "color2": "#4E9197",
+        "color3": "#569AA2",
+        "color4": "#6D96AD",
+        "color5": "#5BAFC5",
+        "color6": "#AFB4BF",
+        "color7": "#e2e6e6",
+        "color8": "#9ea1a1",
+        "color9": "#68798A",
+        "color10": "#4E9197",
+        "color11": "#569AA2",
+        "color12": "#6D96AD",
+        "color13": "#5BAFC5",
+        "color14": "#AFB4BF",
+        "color15": "#e2e6e6"
+    }
+}

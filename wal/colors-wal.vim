@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/plagus/Pictures/wallpapers/Cafe.jpg"
+let background = "#150f14"
+let foreground = "#9abfcf"
+let cursor     = "#9abfcf"
+
+" Colors
+let color0  = "#150f14"
+let color1  = "#9B6A59"
+let color2  = "#CD7142"
+let color3  = "#AB8D6F"
+let color4  = "#E09F54"
+let color5  = "#37688D"
+let color6  = "#947B83"
+let color7  = "#9abfcf"
+let color8  = "#6b8590"
+let color9  = "#9B6A59"
+let color10 = "#CD7142"
+let color11 = "#AB8D6F"
+let color12 = "#E09F54"
+let color13 = "#37688D"
+let color14 = "#947B83"
+let color15 = "#9abfcf"
