@@ -224,7 +224,7 @@ tooltip {
 
 
 .widget-mpris * {
-  background: transparent;
+  border-radius: 4px;
 }
 
 .widget-mpris .widget-mpris-player {
@@ -243,13 +243,11 @@ tooltip {
 .widget-mpris .widget-mpris-player .widget-mpris-title {
     font-weight: bold;
     font-size: 1.2rem;
-    color: @accent-purple;
     margin: 0px 8px 8px 8px;
 }
 
 .widget-mpris .widget-mpris-player .widget-mpris-subtitle {
     font-size: 1rem;
-    color: @accent-purple;
 }
 
 .widget-mpris .widget-mpris-player > box > button:hover {
