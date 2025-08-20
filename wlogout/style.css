@@ -1,4 +1,7 @@
-@import "colors.css";
+@define-color background #3A372F;
+@define-color primary #BFAA80;
+@define-color button-border #D08B57; 
+
 
 #lock {
     background-image: url("/home/plagus/.config/wlogout/icons/lock.png");
@@ -26,32 +29,22 @@
 
 window {
     background-color: rgba(30, 30, 30, 0.8);
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* align-items: center;
-    flex-wrap: nowrap; */
 }
 
 button {
-    color: @foreground;
     font-size: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
-    margin: 10px;
-    padding: 20px;
+    background-color: @background;
+    border: 2px solid @button-border;
+    border-radius: 5px;
+    margin: 5px;
     min-width: 80px;
     min-height: 40px;
-    /* transition: all 0.3s ease; */
 }
 
 button:hover,
 button:focus {
-    background-color: @on_background;
-    border-color: @onn_primary;
-    color: @foreground;
-    /* transform: translateY(-2px); */
+    background-color: @primary;
+    border-color: @primary;
 }
 
 

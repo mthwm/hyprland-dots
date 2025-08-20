@@ -11,7 +11,7 @@
         "group/windows"
     ],
     "modules-right": [
-        "group/brightvol",
+        "group/cpuram",
         "group/system"
     ],
 
@@ -34,6 +34,7 @@
         "modules":[
             "custom/openbracket",
             "custom/arch",
+            "idle_inhibitor",
             "custom/powerprofile",
             "custom/themeswitcher",
             "custom/closebracket"
@@ -116,21 +117,27 @@
 
 
 
-    "group/cpu": {
+    "group/cpuram": {
         "orientation": "horizontal",
         "modules": [
             "custom/openbracket",
-            "custom/cpu",
+            "cpu",
+            "custom/split",
+            "memory",
             "custom/closebracket"
         ]
     },
-    "custom/cpu": {
-        "format": "{}",
+    "cpu": {
+        "format": "CPU:{usage}%",
         "tooltip": false,
         "interval": 2,
-        "exec": "~/.config/waybar/scripts/cpu_ram_toggle.sh",
         "on-click": "kitty -e btop",
-        "on-click-right" : "~/.config/waybar/scripts/cpu_ram_toggle.sh toggle"
+    },
+    "memory":{
+        "format": "RAM:{}%",
+        "tooltip": false,
+        "interval": 2,
+        "on-click": "kitty -e btop",
     },
 
     "group/brightvol": {
@@ -177,7 +184,6 @@
             "custom/bluetooth",
             "custom/clipboard",
             "battery",
-            "idle_inhibitor",
             "custom/swaync",
             "custom/closebracket"
         ]
@@ -188,11 +194,12 @@
         "onclick" : "kalender"
     },
     "network": {
+        "interface": "wlan0",
         "format-wifi": "{icon}",
         "format-ethernet": "󰈀 LAN",
         "format-disconnected": "󰖪",
         "tooltip-format": "{ipaddr}\n{ssid} ({signalStrength}%)",
-        "on-click": "nm-connection-editor",
+        "on-click": "kitty -e nmtui",
         "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
     },
     "custom/bluetooth": {
