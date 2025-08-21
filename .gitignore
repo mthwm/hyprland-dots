@@ -1,12 +1,13 @@
 # Obsidian caches
 obsidian/
 
-# Vesktop caches
-vesktop/sessionData/Cache/
-vesktop/sessionData/Code\ Cache/
-vesktop/sessionData/Cookies
-vesktop/sessionData/DIPS
-vesktop/sessionData/Singleton*
+
+# Vesktop caches and session data
+vesktop/sessionData/
+vesktop/Crashpad
+vesktop/Singleton*
+vesktop/state.json
+
 
 # General system files
 *.log
