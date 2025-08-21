@@ -1,0 +1,20 @@
+# Obsidian caches
+obsidian/Cache/
+obsidian/Code\ Cache/
+obsidian/DawnGraphiteCache/
+obsidian/DawnWebGPUCache/
+obsidian/GPUCache/
+obsidian/IndexedDB/
+obsidian/Local\ Storage/
+obsidian/WebStorage/
+
+# Vesktop caches
+vesktop/sessionData/Cache/
+vesktop/sessionData/Code\ Cache/
+vesktop/sessionData/Cookies
+vesktop/sessionData/DIPS
+vesktop/sessionData/Singleton*
+
+# General system files
+*.log
+*.tmp
