@@ -1,12 +1,5 @@
 # Obsidian caches
-obsidian/Cache/
-obsidian/Code\ Cache/
-obsidian/DawnGraphiteCache/
-obsidian/DawnWebGPUCache/
-obsidian/GPUCache/
-obsidian/IndexedDB/
-obsidian/Local\ Storage/
-obsidian/WebStorage/
+obsidian/
 
 # Vesktop caches
 vesktop/sessionData/Cache/
