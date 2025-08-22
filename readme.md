@@ -101,7 +101,7 @@ source ~/.zshrc
 ##  **TODO**:-
 
 ### **Upcoming Features (when i feel like it)**
-- [ ] **Catppuccin Mocha** color palette theme option
+- [ ] **Catppuccin Mocha** color palette for all applications
 - [ ] Theme switcher script for easy palette changes
 - [ ] Additional wallpaper collection
 
