@@ -156,6 +156,12 @@ button {
 #wireplumber:hover{
     color: @color1;
 }
+#idle_inhibitor{
+  padding: 0 10px 0 0;
+}
+#custom-powerprofile{
+  padding: 0 8px 0 4px;
+}
 /* Remaining Modules */
 #backlight,
 #wireplumber{
@@ -163,9 +169,6 @@ button {
 }
 #wireplumber.muted {
   background-color: @color2;
-}
-#idle_inhibitor{
-    padding: 0 10px 0 0;
 }
 #custom-swaync {
     padding: 0 10px 0 5px;

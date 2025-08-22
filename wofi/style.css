@@ -57,12 +57,12 @@
     color: @txt;
  }
 
- /* Selected Entry */
- #entry:selected {
+/* Selected Entry */
+#entry:selected {
    background-color: @bg;
-   outline: 2px solid @accent;
-   outline-radius: 5px;
- }
+   border: 1px solid @accent2;
+   border-radius: 5px;
+}
 
  #entry:selected #text {
     color: @txt;

@@ -35,6 +35,7 @@
             "custom/openbracket",
             "custom/arch",
             "idle_inhibitor",
+            "custom/split",
             "custom/powerprofile",
             "custom/themeswitcher",
             "custom/closebracket"
@@ -43,7 +44,7 @@
     "custom/arch": {
          "format": "󰣇",
         "tooltip": false,
-         "on-click": "rofi -show drun"
+         "on-click": "wofi --show drun"
     },
     "custom/powerprofile": {
         "exec": "~/.config/waybar/scripts/powerprofile.sh display",
@@ -193,21 +194,6 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "onclick" : "kalender"
     },
-    "network": {
-        "interface": "wlan0",
-        "format-wifi": "{icon}",
-        "format-ethernet": "󰈀 LAN",
-        "format-disconnected": "󰖪",
-        "tooltip-format": "{ipaddr}\n{ssid} ({signalStrength}%)",
-        "on-click": "kitty -e nmtui",
-        "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
-    },
-    "custom/bluetooth": {
-    "format": "{}",
-    "exec": "~/.config/waybar/scripts/bluetooth_status.sh",
-    "interval": 5,
-    "on-click": "blueman-manager"
-    },
     "custom/clipboard": {
         "format": "",
         "tooltip": false,
@@ -232,7 +218,6 @@
             "deactivated": ""
         }
     },
-
     "custom/swaync": {
       "format": "",
       "exec": "swaync-client -swb",
@@ -245,6 +230,21 @@
 
 
 
+    "network": {
+        "interface": "wlan0",
+        "format-wifi": "{icon}",
+        "format-ethernet": "󰈀 LAN",
+        "format-disconnected": "󰖪",
+        "tooltip-format": "{ipaddr}\n{ssid} ({signalStrength}%)",
+        "on-click": "kitty -e nmtui",
+        "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
+    },
+    "custom/bluetooth": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/bluetooth_status.sh",
+    "interval": 5,
+    "on-click": "blueman-manager"
+    },
     "group/clock": {
         "orientation": "horizontal",
         "modules": [
