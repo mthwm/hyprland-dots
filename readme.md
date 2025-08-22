@@ -110,7 +110,9 @@ source ~/.zshrc
 
 <div align="center">
 
-**Made with Blood Sweat and tears, took an entier month..**
+***Made with Blood Sweat and tears, took an entier month..***
+
+**Special thanks to [ViegPhunt's config](https://github.com/ViegPhunt/Dotfiles/blob/main/README.md) and [binEpilo's config](https://github.com/binEpilo/hyprland-gruvbox-rice-) for being the inspiration behind this rice 
 
 *Feel free to star ⭐ if you found this useful!*
 
