@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Iosevka&size=64&duration=3000&pause=1000&color=78997A&background=282828&center=true&vCenter=true&width=1000&height=150&lines=Sophos'+Hyprland+Rice..;Gruvbox+Configuration..;Arch+Linux+Setup..)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Iosevka&size=64&duration=3000&pause=10000&color=78997A&background=282828&center=true&vCenter=true&width=1000&height=150&lines=Sophos'+Hyprland+Rice..)](https://git.io/typing-svg)
 
 *Classic • Simple • Functional*
 
