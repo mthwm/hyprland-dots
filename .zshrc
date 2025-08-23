@@ -123,3 +123,4 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+alias phone='kdeconnect-cli --device 8ca1dc58f3ad404a9a45014279fe079a --share'
