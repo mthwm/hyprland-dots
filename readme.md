@@ -124,7 +124,6 @@ source ~/.zshrc
 - [ ] Theme switcher script for easy palette changes  
 - [ ] Additional wallpaper collection
 - [ ] Custom notification daemon configuration
-- [ ] Rofi integration as wofi alternative
 
 ---
 
