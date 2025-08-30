@@ -124,3 +124,4 @@ function y() {
 	rm -f -- "$tmp"
 }
 alias phone='kdeconnect-cli --device 8ca1dc58f3ad404a9a45014279fe079a --share'
+export PATH="$HOME/miniconda3/bin:$PATH"
