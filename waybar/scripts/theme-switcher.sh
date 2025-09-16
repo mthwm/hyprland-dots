@@ -25,10 +25,9 @@ apply_theme() {
 
   echo "$index" >"$CURRENT_WALLPAPER_FILE"
 
-  # Generate random float between 0.0 and 1.0 for X and Y
-  local rand_x=$(awk -v r=$RANDOM 'BEGIN{srand(r); print rand()}')
-  local rand_y=$(awk -v r=$RANDOM 'BEGIN{srand(r); print rand()}')
-  local random_pos="${rand_x},${rand_y}"
+  # Pick random position for grow animation
+  local positions=("center" "top" "bottom" "left" "right" "top-left" "top-right" "bottom-left" "bottom-right")
+  local random_pos=${positions[$RANDOM % ${#positions[@]}]}
 
   # Apply wallpaper with random grow origin
   swww init &>/dev/null || true
