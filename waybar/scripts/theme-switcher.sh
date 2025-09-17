@@ -34,7 +34,7 @@ apply_theme() {
   swww img "$wallpaper_path" \
     --transition-type grow \
     --transition-fps 60 \
-    --transition-duration 1.2 \
+    --transition-duration 2.0 \
     --transition-pos "$random_pos"
 
   update_hyprlock_wallpaper "$wallpaper_path"
