@@ -124,6 +124,7 @@ function y() {
 	rm -f -- "$tmp"
 }
 alias phone='kdeconnect-cli --device 8ca1dc58f3ad404a9a45014279fe079a --share'
+alias scrcpy='adb connect 10.173.214.103:5555 >/dev/null 2>&1 && command scrcpy'
 # export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 
 # >>> conda initialize >>>

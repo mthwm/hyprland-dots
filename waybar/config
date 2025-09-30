@@ -112,7 +112,7 @@
     "hyprland/window": {
         "format": "{title}", 
         "max-length": 40,
-        "min-length": 20,
+        "min-length": 0,
         "all-outputs": true
     },
 
