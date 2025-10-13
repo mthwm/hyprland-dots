@@ -66,7 +66,7 @@
         "orientation": "horizontal",
         "modules":[
             "custom/openbracket",
-            "hyprland/workspaces",
+            "niri/workspaces",
             "custom/closebracket"
         ]
     },
@@ -76,6 +76,19 @@
         "enable-bar-scroll": true,
         "disable-scroll-wraparound": true,
         "active-only": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "default": "•"
+        }
+    },
+
+    "niri/workspaces": {
         "format": "{icon}",
         "format-icons": {
             "1": "1",
@@ -105,17 +118,22 @@
         "orientation":"horizontal",
         "modules":[
             "custom/openbracket",
-            "hyprland/window",
+            "niri/window",
             "custom/closebracket"
         ]
     },
     "hyprland/window": {
         "format": "{title}", 
-        "max-length": 40,
+        "max-length": 20,
         "min-length": 0,
         "all-outputs": true
     },
-
+    "niri/window": {
+        "format": "{title}", 
+        "max-length": 20,
+        "min-length": 0,
+        "all-outputs": true
+    },
 
 
     "group/cpuram": {
