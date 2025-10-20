@@ -12,6 +12,7 @@
     ],
     "modules-right": [
         "group/cpuram",
+        "group/brightvol",
         "group/system"
     ],
 
@@ -34,17 +35,16 @@
         "modules":[
             "custom/openbracket",
             "custom/arch",
-            "idle_inhibitor",
-            "custom/split",
             "custom/powerprofile",
             "custom/themeswitcher",
             "custom/closebracket"
         ]
     },
     "custom/arch": {
-         "format": "󰣇",
-        "tooltip": false,
-         "on-click": "wofi --show drun"
+        "format": "󰣇",
+        "tooltip": true,
+        "tooltip-format": "Application Menu",
+        "on-click": "wofi --show drun"
     },
     "custom/powerprofile": {
         "exec": "~/.config/waybar/scripts/powerprofile.sh display",
@@ -55,18 +55,17 @@
         "tooltip-format": "Power Profile: {} \nClick to cycle: Efficient → Normal → Overclocked"
     },
     "custom/themeswitcher":{
-        "format": "",
+        "format": "🗻",
         "tooltip": true,
-        "tooltip-format": "Click to change theme",
+        "tooltip-format": "Click to change wallpaper",
         "on-click": "~/.config/waybar/scripts/theme-switcher.sh next",
         "on-click-right": "~/.config/scripts/theme-switcher.sh random"
     },
-
     "group/workspaces":{
         "orientation": "horizontal",
         "modules":[
             "custom/openbracket",
-            "niri/workspaces",
+            "hyprland/workspaces",
             "custom/closebracket"
         ]
     },
@@ -84,58 +83,38 @@
             "4": "4",
             "5": "5",
             "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "0",
             "default": "•"
         }
     },
-
-    "niri/workspaces": {
-        "format": "{icon}",
-        "format-icons": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "default": "•"
-        }
-    },
-
     "mpris": {
-        "format": "[   {status_icon} | {dynamic} ]",
+        "format": "[   {status_icon} ]",
         "interval": 1,
         "dynamic-len": 40,
         "status-icons": {
-            "playing": "▶",
-            "paused": "⏸",
+            "playing": "⏸",
+            "paused": "▶",
             "stopped": ""
         },
         "dynamic-order": ["artist"]
     },
-
-
     "group/windows": {
         "orientation":"horizontal",
         "modules":[
             "custom/openbracket",
-            "niri/window",
+            "hyprland/window",
             "custom/closebracket"
         ]
     },
     "hyprland/window": {
         "format": "{title}", 
-        "max-length": 20,
+        "max-length": 50,
         "min-length": 0,
         "all-outputs": true
     },
-    "niri/window": {
-        "format": "{title}", 
-        "max-length": 20,
-        "min-length": 0,
-        "all-outputs": true
-    },
-
-
     "group/cpuram": {
         "orientation": "horizontal",
         "modules": [
@@ -150,15 +129,14 @@
         "format": "CPU:{usage}%",
         "tooltip": false,
         "interval": 2,
-        "on-click": "kitty -e btop",
+        "on-click": "kitty -e btop"
     },
     "memory":{
         "format": "RAM:{}%",
         "tooltip": false,
         "interval": 2,
-        "on-click": "kitty -e btop",
+        "on-click": "kitty -e btop"
     },
-
     "group/brightvol": {
         "orientation": "horizontal",
         "modules": [
@@ -173,44 +151,47 @@
         "scroll-step": 5,
         "format": "{icon}{volume}%",
         "format-bluetooth": "{icon}{volume}% ",
-        "format-bluetooth-muted": " {icon}",
-        "format-muted": "",
+        "format-bluetooth-muted": " {icon}",
+        "format-muted": "",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "",
+            "headset": "",
             "phone": "",
             "portable": "",
             "car": "",
-            "default": [" :", " :", " :"]
+            "default": [" ", " ", " "]
         },
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-        "on-click-right": "pavucontrol"
+        "on-click-right": "pwvucontrol"
     },
     "backlight": {
-        "format": "{icon}:{percent}%",
+        "format": "{icon} {percent}%",
         "format-icons": ["", "", "🌙"],
-        "on-click": "~/.config/waybar/scripts/brightness_slider.sh"  
+        "on-click": "~/.config/waybar/scripts/brightness_slider.sh"
     },
-
     "group/system": {
         "orientation": "horizontal",
         "modules": [
             "custom/openbracket",
-            "clock",
-            "custom/split",
             "network",
             "custom/bluetooth",
             "custom/clipboard",
-            "battery",
             "custom/swaync",
+            "custom/closebracket",
+            "custom/openbracket",
+            "battery",
+            "custom/closebracket",
+            "custom/openbracket",
+            "clock",
             "custom/closebracket"
         ]
     },
     "clock": {
-        "format": "{:%I:%M}",
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "onclick" : "kalender"
+        "onclick" : "calendar"
     },
     "custom/clipboard": {
         "format": "",
@@ -229,25 +210,12 @@
         "format-icons": ["", "", "", "", ""],
         "on-click": "wlogout"
     },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
-    },
     "custom/swaync": {
       "format": "",
       "exec": "swaync-client -swb",
       "on-click": "swaync-client --toggle-panel",
       "interval": 0
     },
-
-
-
-
-
-
     "network": {
         "interface": "wlan0",
         "format-wifi": "{icon}",

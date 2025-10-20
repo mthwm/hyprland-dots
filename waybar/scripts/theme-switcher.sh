@@ -25,17 +25,13 @@ apply_theme() {
 
   echo "$index" >"$CURRENT_WALLPAPER_FILE"
 
-  # Pick random position for grow animation
-  local positions=("center" "top" "bottom" "left" "right" "top-left" "top-right" "bottom-left" "bottom-right")
-  local random_pos=${positions[$RANDOM % ${#positions[@]}]}
-
   # Apply wallpaper with random grow origin
   swww init &>/dev/null || true
   swww img "$wallpaper_path" \
     --transition-type grow \
     --transition-fps 60 \
-    --transition-duration 1.0 \
-    --transition-pos "$random_pos"
+    --transition-duration 0.5 \
+    --transition-pos "center"
 
   update_hyprlock_wallpaper "$wallpaper_path"
   notify-send "Theme Switcher" "Applied: $wallpaper_name"
