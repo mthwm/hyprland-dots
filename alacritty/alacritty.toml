@@ -1,0 +1,27 @@
+# $HOME/.config/alacritty/alacritty.toml
+# by Matej Moravek 2025-02-02
+
+[window]
+
+opacity = 0.9
+
+padding.x = 10
+padding.y = 10
+
+startup_mode = "Maximized"
+
+decorations = "None"
+decorations_theme_variant = "Dark" # "Dark"
+
+[font]
+
+normal = { family = "JetBrains Mono Nerd Font", style = "normal" }
+bold = { family = "JetBrains Mono Nerd Font", style = "bold" }
+italic = { family = "JetBrains Mono Nerd Font", style = "italic" }
+bold_italic = { family = "JetBrains Mono Nerd Font", style = "bold_italic" }
+size = 14.0
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/ayu_dark.toml"
+]
