@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Theme Switcher Script
-WALLPAPER_DIR="$HOME/new-dotfiles/assets"
+WALLPAPER_DIR="$HOME/hyprland-dots/sfw-wallpaper"
 CURRENT_WALLPAPER_FILE="$HOME/.cache/current_wallpaper"
 
 # Collect wallpapers
@@ -34,7 +34,7 @@ apply_theme() {
   swww img "$wallpaper_path" \
     --transition-type grow \
     --transition-fps 60 \
-    --transition-duration 2.0 \
+    --transition-duration 1.0 \
     --transition-pos "$random_pos"
 
   update_hyprlock_wallpaper "$wallpaper_path"
