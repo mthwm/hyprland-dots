@@ -11,7 +11,6 @@
         "group/windows"
     ],
     "modules-right": [
-        "group/cpuram",
         "group/brightvol",
         "group/system"
     ],
@@ -41,7 +40,7 @@
         ]
     },
     "custom/arch": {
-        "format": "󰣇",
+        "format": "󰣇 ",
         "tooltip": true,
         "tooltip-format": "Application Menu",
         "on-click": "wofi --show drun"
@@ -55,7 +54,7 @@
         "tooltip-format": "Power Profile: {} \nClick to cycle: Efficient → Normal → Overclocked"
     },
     "custom/themeswitcher":{
-        "format": "🗻",
+        "format": " ",
         "tooltip": true,
         "tooltip-format": "Click to change wallpaper",
         "on-click": "~/.config/waybar/scripts/theme-switcher.sh next",
@@ -113,7 +112,8 @@
         "format": "{title}", 
         "max-length": 50,
         "min-length": 0,
-        "all-outputs": true
+        "all-outputs": true,
+        "on-click": "swaync-client --toggle-panel"
     },
     "group/cpuram": {
         "orientation": "horizontal",
@@ -151,8 +151,8 @@
         "scroll-step": 5,
         "format": "{icon}{volume}%",
         "format-bluetooth": "{icon}{volume}% ",
-        "format-bluetooth-muted": " {icon}",
-        "format-muted": "",
+        "format-bluetooth-muted": "󰖁 {icon}",
+        "format-muted": "󰖁 ",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -167,7 +167,7 @@
     },
     "backlight": {
         "format": "{icon} {percent}%",
-        "format-icons": ["", "", "🌙"],
+        "format-icons": [" ", " ", " "],
         "on-click": "~/.config/waybar/scripts/brightness_slider.sh"
     },
     "group/system": {
@@ -175,9 +175,10 @@
         "modules": [
             "custom/openbracket",
             "network",
+            "custom/closebracket",
+            "custom/openbracket",
             "custom/bluetooth",
             "custom/clipboard",
-            "custom/swaync",
             "custom/closebracket",
             "custom/openbracket",
             "battery",
@@ -205,7 +206,7 @@
         },
         "format": "{icon} {capacity}%",
         "format-full": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
+        "format-charging": " {capacity}%",
         "format-plugged": "  {capacity}%",
         "format-icons": ["", "", "", "", ""],
         "on-click": "wlogout"
@@ -217,12 +218,11 @@
       "interval": 0
     },
     "network": {
-        "interface": "wlan0",
-        "format-wifi": "{icon}",
+        "format-wifi": "{icon}  {essid} ({signalStrength}%)",
         "format-ethernet": "󰈀 LAN",
         "format-disconnected": "󰖪",
         "tooltip-format": "{ipaddr}\n{ssid} ({signalStrength}%)",
-        "on-click": "kitty -e nmtui",
+        "on-click": "alacritty -e nmtui",
         "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
     },
     "custom/bluetooth": {

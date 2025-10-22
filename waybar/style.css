@@ -183,10 +183,6 @@ button {
   padding: 0 5px;
 }
 
-#wireplumber.muted {
-  background-color: @color2;
-}
-
 #custom-swaync {
   padding: 0 10px 0 5px;
   font-size: 16px;
