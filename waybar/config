@@ -5,6 +5,10 @@
     "modules-left": [
         "group/Utilities",
         "group/workspaces",
+        "custom/openbracket",
+        "hyprland/language",
+        "custom/closebracket",
+        "custom/weather",
         "mpris"
     ],
     "modules-center": [
@@ -90,7 +94,7 @@
         }
     },
     "mpris": {
-        "format": "[   {status_icon} ]",
+        "format": "{status_icon}",
         "interval": 1,
         "dynamic-len": 40,
         "status-icons": {
@@ -99,6 +103,13 @@
             "stopped": ""
         },
         "dynamic-order": ["artist"]
+    },
+    "custom/weather": {
+        "format": "{}° ",
+        "tooltip": true,
+        "interval": 3600,
+        "exec": "wttrbar",
+        "return-type": "json"
     },
     "group/windows": {
         "orientation":"horizontal",
@@ -195,7 +206,7 @@
         "on-click": "swaync-client --toggle-panel"
     },
     "custom/clipboard": {
-        "format": "",
+        "format": " ",
         "tooltip": false,
         "on-click": "~/.config/waybar/scripts/clipboard_menu.sh"
     },
