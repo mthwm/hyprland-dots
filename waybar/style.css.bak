@@ -1,14 +1,14 @@
-/* colors defined at top for easy configuring (hard-coded) */
-/* background: #2C2A24 */
-/* second-background: #3A372F */
-/* text: #DDD5C4 */
-/* borders: #A0907A */
-/* focused: #D08B57 */
-/* focused2: #BFAA80 */
-/* color1: #7699A3 */
-/* color2: #8D7AAE */
-/* color3: #78997A */
-/* urgent: #B05A5A */
+/* colors defined at top for easy configuring */
+@define-color background #2C2A24;
+@define-color second-background #3A372F;
+@define-color text #DDD5C4;
+@define-color borders #A0907A;
+@define-color focused #D08B57;
+@define-color focused2 #BFAA80;
+@define-color color1 #7699A3;
+@define-color color2 #8D7AAE;
+@define-color color3 #78997A;
+@define-color urgent #B05A5A;
 
 
 /* font declared */
@@ -22,10 +22,11 @@
   margin: 0 5px;
 }
 
+/* idk what all this does */
 window#waybar {
   background-color: transparent;
   border-bottom: 0;
-  color: #DDD5C4;
+  color: @text;
   transition: background-color 0.5s;
 }
 
@@ -40,19 +41,32 @@ window#waybar.empty #window {
 
 /* configuring the modules */
 .modules-left {
+  margin: 10px 0 0 10px;
   padding: 0 0 0 7px;
-  background-color: transparent;
+  background-color: @background;
+  border: 2px solid @focused;
 }
 
 .modules-center {
+  margin: 10px 0 0 0;
   padding: 0 10px 0 10px;
-  background-color: transparent;
+  background-color: @background;
+  border: 2px solid @focused;
 }
 
 .modules-right {
+  margin: 10px 10px 0 0;
   padding: 0 10px 0 10px;
-  background-color: transparent;
+  background-color: @background;
+  border: 2px solid @focused;
 }
+
+
+/* whats this?? */
+button {
+  border: none;
+}
+
 
 /* left island */
 
@@ -67,15 +81,15 @@ window#waybar.empty #window {
 }
 
 #custom-arch:hover {
-  color: #7699A3;
+  color: @color1;
 }
 
 #custom-powerprofile:hover {
-  color: #7699A3;
+  color: @color1
 }
 
 #custom-themeswitcher:hover {
-  color: #7699A3;
+  color: @color1;
 }
 
 /* workspace pannel */
@@ -83,20 +97,21 @@ window#waybar.empty #window {
   min-width: 0;
   padding: 0 8px 0 8px;
   background-color: transparent;
-  color: #DDD5C4;
+  color: @text;
   border-radius: 0;
 }
 
 #workspaces button:hover {
-  color: #007191;
+  background-color: @second-background;
 }
 
 #workspaces button.active {
-  color: #616161;
+  color: @focused2;
+  background-color: @second-background;
 }
 
 #workspaces button.urgent {
-  background-color: #B05A5A;
+  background-color: @urgent;
 }
 
 /* no idea what this does */
@@ -112,14 +127,14 @@ window#waybar.empty #window {
 #mpris {
   margin: 0 0 0 5px;
   padding: 0 9px;
-  background-color: #2C2A24;
-  color: #DDD5C4;
+  background-color: @background;
+  color: @text;
 }
 
 #mpris.playing {
-  background-color: #78997A;
+  background-color: @color3;
   border-radius: 2px;
-  color: #2C2A24;
+  color: @background;
 }
 
 
@@ -151,7 +166,7 @@ window#waybar.empty #window {
 #custom-swaync:hover,
 #backlight:hover,
 #wireplumber:hover {
-  color: #7699A3;
+  color: @color1;
 }
 
 #idle_inhibitor {
@@ -172,24 +187,24 @@ window#waybar.empty #window {
   padding: 0 10px 0 5px;
   font-size: 16px;
   /* same scale as other icons */
-  color: #DDD5C4;
+  color: @text;
 }
 
 #battery.charging,
 #battery.plugged {
-  background-color: #BFAA80;
-  color: #2C2A24;
+  background-color: @focused2 ;
+  color: @background;
 }
 
 #battery.critical:not(.charging) {
-  background-color: #B05A5A;
-  color: #DDD5C4;
+  background-color: @urgent;
+  color: @text;
   animation: blink 0.5s steps(12) infinite alternate;
 }
 
 @keyframes blink {
   to {
-    background-color: #3A372F;
-    color: #DDD5C4;
+    background-color: @second-background;
+    color: @text;
   }
 }

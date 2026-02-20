@@ -22,6 +22,12 @@ alias nf="fastfetch"
 # lazne
 alias ldocker="sudo docker compose -f ~/docker/lazne/compose.yml up -d"
 
+# network
+alias myip="curl ifconfig.me"
+alias wwc="connect-wifi Chariclea"
+alias ww="connect-wifi LP_WORK"
+alias wp="connect-wifi mthwm"
+
 ## Exports
 # export PATH=/usr/local/go/bin:$PATH
 # export PATH=/home/mthwm/go/bin:$PATH
@@ -35,6 +41,6 @@ alias ldocker="sudo docker compose -f ~/docker/lazne/compose.yml up -d"
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
 export PATH="$HOME/go/bin:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/.local/scripts:/opt/nvim-linux-x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-
+export HYPRSHOT_DIR="$HOME/Pictures/Screenshots"
 
 bindkey -s ^f "tmux-sessionizer\n"

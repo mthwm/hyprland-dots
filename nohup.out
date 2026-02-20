@@ -1,0 +1,257 @@
+[2025-11-04 14:19:09.394] [info] Using configuration file /home/mthwm/.config/waybar/config
+[2025-11-04 14:19:09.395] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-11-04 14:19:09.395] [info] Using CSS file /home/mthwm/.config/waybar/style.css
+[2025-11-04 14:19:09.400] [info] Hyprland IPC starting
+[2025-11-04 14:19:09.401] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-11-04 14:19:09.414] [warning] 'swap-icon-label' must be a bool.
+[2025-11-04 14:19:09.447] [error] network: argument not found
+[2025-11-04 14:19:09.447] [error] network: argument not found
+[2025-11-04 14:19:09.447] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.448] [error] network: argument not found
+[2025-11-04 14:19:09.450] [error] network: argument not found
+[2025-11-04 14:19:09.451] [error] network: argument not found
+[2025-11-04 14:19:09.468] [info] Bar configured (width: 2400, height: 40) for output: eDP-1
+[2025-11-04 14:19:36.322] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 78 not found
+[2025-11-04 14:19:49.300] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:19:49.310] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:19:49.318] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:20:09.441] [error] network: argument not found
+[2025-11-04 14:20:11.004] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 14:20:11.010] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 14:20:11.013] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 14:20:12.203] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:20:12.211] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:20:12.214] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:21:03.938] [error] network: argument not found
+[2025-11-04 14:21:03.944] [error] network: argument not found
+[2025-11-04 14:21:03.944] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:21:03.945] [error] network: argument not found
+[2025-11-04 14:22:03.945] [error] network: argument not found
+[2025-11-04 14:23:03.945] [error] network: argument not found
+[2025-11-04 14:23:58.092] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:23:58.104] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:23:58.114] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:24:03.945] [error] network: argument not found
+[2025-11-04 14:25:03.945] [error] network: argument not found
+[2025-11-04 14:25:44.986] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 14:25:44.992] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 14:25:44.996] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 14:25:47.809] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:25:47.817] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:25:47.821] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:25:49.370] [error] network: argument not found
+[2025-11-04 14:25:49.374] [error] network: argument not found
+[2025-11-04 14:25:49.374] [error] network: argument not found
+[2025-11-04 14:25:49.380] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:25:49.381] [error] network: argument not found
+[2025-11-04 14:26:49.380] [error] network: argument not found
+[2025-11-04 14:27:49.381] [error] network: argument not found
+[2025-11-04 14:28:05.885] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:28:05.890] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:28:05.895] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:28:05.963] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:28:05.972] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:28:05.977] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:28:49.381] [error] network: argument not found
+[2025-11-04 14:29:49.381] [error] network: argument not found
+[2025-11-04 14:30:23.377] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:30:23.384] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:30:23.387] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 14:30:49.381] [error] network: argument not found
+[2025-11-04 14:31:49.381] [error] network: argument not found
+[2025-11-04 14:32:49.381] [error] network: argument not found
+[2025-11-04 14:33:49.382] [error] network: argument not found
+[2025-11-04 14:34:49.382] [error] network: argument not found
+[2025-11-04 14:35:02.451] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:35:02.457] [error] network: argument not found
+[2025-11-04 14:36:02.458] [error] network: argument not found
+[2025-11-04 14:37:02.458] [error] network: argument not found
+[2025-11-04 14:38:02.458] [error] network: argument not found
+[2025-11-04 14:38:16.999] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:38:17.005] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:38:17.007] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:39:02.458] [error] network: argument not found
+[2025-11-04 14:40:02.459] [error] network: argument not found
+[2025-11-04 14:40:07.313] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:40:07.325] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:40:07.336] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:41:02.459] [error] network: argument not found
+[2025-11-04 14:41:11.433] [error] network: argument not found
+[2025-11-04 14:41:11.434] [error] network: argument not found
+[2025-11-04 14:41:11.434] [error] network: argument not found
+[2025-11-04 14:41:11.439] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.440] [error] network: argument not found
+[2025-11-04 14:41:11.441] [error] network: argument not found
+[2025-11-04 14:41:11.441] [error] network: argument not found
+[2025-11-04 14:42:11.440] [error] network: argument not found
+[2025-11-04 14:43:11.440] [error] network: argument not found
+[2025-11-04 14:43:45.922] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:43:45.933] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:43:45.941] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:43:59.013] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:43:59.017] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:43:59.020] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:44:11.441] [error] network: argument not found
+[2025-11-04 14:44:16.748] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:44:16.753] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:44:16.757] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 14:45:11.441] [error] network: argument not found
+[2025-11-04 14:46:02.950] [error] network: argument not found
+[2025-11-04 14:46:02.961] [error] network: argument not found
+[2025-11-04 14:46:02.961] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:02.963] [error] network: argument not found
+[2025-11-04 14:46:03.407] [error] network: argument not found
+[2025-11-04 14:46:03.407] [error] network: argument not found
+[2025-11-04 14:47:02.962] [error] network: argument not found
+[2025-11-04 14:47:59.487] [error] network: argument not found
+[2025-11-04 14:47:59.491] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:47:59.497] [error] network: argument not found
+[2025-11-04 14:48:59.497] [error] network: argument not found
+[2025-11-04 14:49:59.498] [error] network: argument not found
+[2025-11-04 14:50:59.498] [error] network: argument not found
+[2025-11-04 14:51:59.498] [error] network: argument not found
+[2025-11-04 14:52:59.498] [error] network: argument not found
+[2025-11-04 14:53:59.498] [error] network: argument not found
+[2025-11-04 14:54:59.296] [error] network: argument not found
+[2025-11-04 14:54:59.296] [error] network: argument not found
+[2025-11-04 14:54:59.296] [error] network: argument not found
+[2025-11-04 14:54:59.301] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:54:59.302] [error] network: argument not found
+[2025-11-04 14:55:59.302] [error] network: argument not found
+[2025-11-04 14:56:59.302] [error] network: argument not found
+[2025-11-04 14:57:59.302] [error] network: argument not found
+[2025-11-04 14:58:59.302] [error] network: argument not found
+[2025-11-04 14:59:59.303] [error] network: argument not found
+[2025-11-04 15:00:59.303] [error] network: argument not found
+[2025-11-04 15:01:33.698] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 15:01:33.711] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 15:01:33.720] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 15:01:59.303] [error] network: argument not found
+[2025-11-04 15:02:17.140] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 15:02:17.153] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 15:02:17.161] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 102 not found
+[2025-11-04 15:02:20.299] [error] network: argument not found
+[2025-11-04 15:02:20.299] [error] network: argument not found
+[2025-11-04 15:02:20.305] [error] network: argument not found
+[2025-11-04 15:02:20.305] [error] network: argument not found
+[2025-11-04 15:02:20.305] [error] network: argument not found
+[2025-11-04 15:02:20.305] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:20.306] [error] network: argument not found
+[2025-11-04 15:02:30.392] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 15:02:30.403] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 15:02:30.408] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 98 not found
+[2025-11-04 15:02:34.979] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 15:02:34.986] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 15:02:34.990] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 15:03:20.306] [error] network: argument not found
+[2025-11-04 15:04:20.306] [error] network: argument not found
+[2025-11-04 15:05:20.306] [error] network: argument not found
+[2025-11-04 15:06:20.306] [error] network: argument not found
+[2025-11-04 15:07:20.306] [error] network: argument not found
+[2025-11-04 15:07:34.545] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 100 not found
+[2025-11-04 15:07:34.551] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 100 not found
+[2025-11-04 15:07:34.554] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 100 not found
+[2025-11-04 15:08:15.909] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 15:08:15.916] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 15:08:15.918] [warning] [wireplumber]: (onMixerChanged: Audio/Sink) - Object with id 80 not found
+[2025-11-04 15:08:20.306] [error] network: argument not found
+[2025-11-04 15:09:20.308] [error] network: argument not found
+[2025-11-04 15:10:20.308] [error] network: argument not found
+[2025-11-04 15:11:20.309] [error] network: argument not found
+[2025-11-04 15:11:21.338] [error] network: argument not found
+[2025-11-04 15:11:21.346] [error] network: argument not found
+[2025-11-04 15:11:21.346] [error] network: argument not found
+[2025-11-04 15:11:21.347] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:11:21.348] [error] network: argument not found
+[2025-11-04 15:12:21.348] [error] network: argument not found
+[2025-11-04 15:13:21.348] [error] network: argument not found
+[2025-11-04 15:14:21.349] [error] network: argument not found
+Gdk-Message: 15:14:34.990: Error reading events from display: Connection reset by peer
